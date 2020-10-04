@@ -14,12 +14,13 @@ body{
 	font-size: 20px;
 	font-weight: bold;
 }
-h1 {text-align: center;
+h1, h2 {text-align: center;
 font-size: 30px;
 }
 
 
-#quote, #book-name, #auther-name, #book-cover, #rate{
+/*#quote, #book-name, #auther-name, #book-cover, #rate*/
+#your-name{
 	width: 50%;
   padding: 10px 10px;
   margin: 8px ;
@@ -31,7 +32,7 @@ font-size: 30px;
 body{
 	color: black;
 }
-#save{
+#enter{
 	background-color: black;
   color: white;
   padding: 10px 20px;
