@@ -20,7 +20,7 @@
  Book Cover:<br><input type="img" id="book-cover"><br><br>
  Quote:<br><input type="text" id="quote"><br><br>
  Rate:<br><input type="text" id="rate"><br><br> -->
- <button id="enter" onclick="counter()">Enter</button>
+ <button id="enter" onclick="add(1)">Enter</button>
 
 </fieldset>
 </form>
@@ -31,22 +31,15 @@
 	
 </ul>
 <script>
-	
-  //   var a = 0;
-  //  function add(valueToAdd){
+	var counter=0;
+    var a = 0;
+   function add(valueToAdd){
    	
-  //       a = a+valueToAdd.local.;
-  //       document.getElementById('Value').innerHTML = a;
-localStorage.getltem("count")
-let count=0;
-localStorage.setltem("count", count)
-countEl.textCountent = count;
- const plusOneButton = document.querySelector("")
-plusOneButton.addEventListener("click")
-
+        a += valueToAdd;
+        document.getElementById('Value').innerHTML = a;}
 </script>
-<!-- Visitor <span id="Value">0</span>
- -->
+Visitor <span id="Value">0</span>
+
 <a href="file:///C:/Users/F5/Desktop/project-1/two.html"></a>
 <script type="text/javascript" src="main.js"></script>
 <!-- <script type="text/javascript"src="two.js"></script> -->
